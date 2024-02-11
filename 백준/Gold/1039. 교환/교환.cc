@@ -14,7 +14,7 @@ const int MAX_N = 1000100;
 const int MAX_M = 100;
 
 vector<vector<bool>> used(MAX_M,
-                          vector<bool>(MAX_N, false)); // Changed to vector
+                          vector<bool>(MAX_N, false));
 
 int n, m, cnt, maxi = -1;
 
